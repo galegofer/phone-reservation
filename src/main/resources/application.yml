@@ -1,0 +1,5 @@
+serviceHost: https://grabaphone.herokuapp.com/api/
+
+logging:
+  level:
+    root: INFO
