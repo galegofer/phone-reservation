@@ -1,4 +1,5 @@
-serviceHost: https://grabaphone.herokuapp.com/api/
+serviceHost: https://grabaphone.herokuapp.com
+appKey: 5b882ff0382e
 
 logging:
   level:

@@ -1,6 +1,7 @@
 package org.galegofer.phone.test.domain.model.payload;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.io.Serializable;
 import lombok.Builder;
 import lombok.Value;
 import lombok.extern.jackson.Jacksonized;
@@ -8,7 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Builder
 @Value
 @Jacksonized
-public class Device {
+public class Device implements Serializable {
     @JsonProperty("device_url")
     String deviceURL;
     int id;

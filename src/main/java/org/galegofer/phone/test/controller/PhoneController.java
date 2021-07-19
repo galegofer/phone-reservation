@@ -1,5 +1,6 @@
 package org.galegofer.phone.test.controller;
 
+import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.galegofer.phone.test.domain.model.payload.BookedPhoneRequestPayload;
@@ -32,13 +33,13 @@ public class PhoneController {
     }
 
     @PostMapping("/book")
-    public Mono<BookedPhoneResponsePayload> bookPhone(@RequestBody BookedPhoneRequestPayload requestPayload) {
+    public Mono<BookedPhoneResponsePayload> bookPhone(@RequestBody @Valid BookedPhoneRequestPayload requestPayload) {
         return phoneService.bookPhone(requestPayload.getPersonCorpKey(), requestPayload.getSerialNumber())
                 .map(mapper::modelToPayload);
     }
 
     @PostMapping("/return")
-    public Mono<BookedPhoneResponsePayload> returnPhone(@RequestBody BookedPhoneRequestPayload requestPayload) {
+    public Mono<BookedPhoneResponsePayload> returnPhone(@RequestBody @Valid BookedPhoneRequestPayload requestPayload) {
         return phoneService.returnPhone(requestPayload.getSerialNumber())
                 .map(mapper::modelToPayload);
     }
