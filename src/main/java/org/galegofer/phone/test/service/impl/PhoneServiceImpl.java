@@ -100,14 +100,18 @@ public class PhoneServiceImpl implements PhoneService {
     private static List<String> extractDeviceDetails(Root details) {
         return Optional.ofNullable(details)
             .map(Root::getDevices)
-            .map(devices -> details.getDevices().stream()
-                .findFirst()
-                .map(Device::getSpecs)
-                .map(Specs::getConnectivityFeatures)
-                .map(features -> features.stream()
-                    .map(ConnectivityFeature::getDescription)
-                    .collect(toUnmodifiableList()))
-                .orElse(emptyList()))
+            .map(PhoneServiceImpl::extractConnectivity)
+            .orElse(emptyList());
+    }
+
+    private static List<String> extractConnectivity(List<Device> devices) {
+        return devices.stream()
+            .findFirst()
+            .map(Device::getSpecs)
+            .map(Specs::getConnectivityFeatures)
+            .map(features -> features.stream()
+                .map(ConnectivityFeature::getDescription)
+                .collect(toUnmodifiableList()))
             .orElse(emptyList());
     }
 }

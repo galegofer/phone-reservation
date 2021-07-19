@@ -28,19 +28,20 @@ $ java -jar ./target/phone-reservation-0.0.1-SNAPSHOT.jar
       }
       ``` 
 * **POST** /phone/return - Returns a previously created phone booking
-  * Body:
-     ```
-      {
-          "serialNumber": "j" // The phone unique serial number to be returned
-      }
-      ```
+    * Body:
+       ```
+        {
+            "serialNumber": "j" // The phone unique serial number to be returned
+        }
+        ```
+
 #### Example Data:
 
 * Users:
-    * **FirstName - LastName  - CorpKey - Email**
+    * **FirstName - LastName - CorpKey - Email**
     * 'Damian', 'Fernandez', 'uu0000', 'ing.damianfernandez@gmail.com'
     * 'John', 'Doe', 'xz1234', 'johndoe@live.com'
-    
+
 * Phones:
     * **Serial - Brand - Model**
     * 'a', 'Samsung', 'Galaxy S9'
@@ -57,7 +58,9 @@ $ java -jar ./target/phone-reservation-0.0.1-SNAPSHOT.jar
 #### Questions
 
 * What aspect of this exercise did you find most interesting?
-   * The need to check an external API to enrich the mobile phones data.
+    * The need to check an external API to enrich the mobile phones data.
 * What did you find most cumbersome?
-   * It was quiet hard to find a reliable alternative to FonoAPI (it is down), so I took another one Grabaphone.
-   * The enrichment phone data process has its own tricks.
+    * It was quiet hard to find a reliable alternative to FonoAPI (it is down), so I took another one Grabaphone.
+    * The enrichment phone data process has its own tricks.
+    * The reactive database approach doesn't bind foreigns keys to objects, which makes development a little bit more
+      harder.

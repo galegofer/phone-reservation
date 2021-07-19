@@ -62,12 +62,12 @@ abstract class AbstractIT {
                 .withBody(readResource(responseResource))));
     }
 
-    protected static void mockNotFound(final String url) throws IOException {
+    protected static void mockNotFound(final String url) {
         WireMock.stubFor(get(urlEqualTo(url))
             .willReturn(aResponse().withStatus(NOT_FOUND.value())));
     }
 
-    protected static void mockServerInternalError(final String url) throws IOException {
+    protected static void mockServerInternalError(final String url) {
         WireMock.stubFor(get(urlEqualTo(url))
             .willReturn(aResponse().withStatus(INTERNAL_SERVER_ERROR.value())));
     }

@@ -28,7 +28,6 @@ public class PhoneController {
     PhoneService phoneService;
     BookedPhoneMapper mapper;
 
-    // FIXME: Add IT.
     @GetMapping("/list-bookings")
     public Flux<BookedPhoneResponsePayload> getAllBookings() {
         return phoneService.getAllBookings()

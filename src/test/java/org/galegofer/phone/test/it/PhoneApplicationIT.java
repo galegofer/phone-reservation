@@ -6,8 +6,6 @@ import static org.springframework.http.MediaType.APPLICATION_JSON_VALUE;
 import static org.springframework.web.util.UriComponentsBuilder.fromPath;
 
 import java.io.IOException;
-import java.net.URLEncoder;
-import java.nio.charset.Charset;
 import org.galegofer.phone.test.domain.model.payload.BookedPhoneRequestPayload;
 import org.galegofer.phone.test.domain.model.payload.BookedPhoneResponsePayload;
 import org.junit.jupiter.api.Test;

@@ -1,6 +1,5 @@
 package org.galegofer.phone.test.domain.model.payload;
 
-import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.Pattern;
 import lombok.AllArgsConstructor;
