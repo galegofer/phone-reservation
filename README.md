@@ -18,8 +18,8 @@ $ java -jar ./target/phone-reservation-0.0.1-SNAPSHOT.jar
 
 #### Endpoints
 
-* GET /phone/list-bookings - Get all the booked phones
-* POST /phone/book - Creates a booking for a phone
+* **GET** /phone/list-bookings - Get all the booked phones
+* **POST** /phone/book - Creates a booking for a phone
     * Body:
       ```
       {
@@ -27,7 +27,7 @@ $ java -jar ./target/phone-reservation-0.0.1-SNAPSHOT.jar
           "serialNumber": "j" // The phone unique serial number
       }
       ``` 
-* POST /phone/return - Returns a previously created phone booking
+* **POST** /phone/return - Returns a previously created phone booking
   * Body:
      ```
       {
@@ -37,12 +37,12 @@ $ java -jar ./target/phone-reservation-0.0.1-SNAPSHOT.jar
 #### Example Data:
 
 * Users:
-    * FirstName - LastName  - CorpKey - Email
+    * **FirstName - LastName  - CorpKey - Email**
     * 'Damian', 'Fernandez', 'uu0000', 'ing.damianfernandez@gmail.com'
     * 'John', 'Doe', 'xz1234', 'johndoe@live.com'
     
 * Phones:
-    * Serial - Brand - Model
+    * **Serial - Brand - Model**
     * 'a', 'Samsung', 'Galaxy S9'
     * 'b', 'Samsung', 'Galaxy S8'
     * 'c', 'Samsung', 'Galaxy S7'
