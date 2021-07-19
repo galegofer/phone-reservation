@@ -19,7 +19,7 @@ public class DeviceInformationRepository {
     WebClient http;
 
     @Cacheable("devices")
-    public Mono<Root> getDevices(String manufactureName, String modelName) {
+    public Mono<Root> getDeviceInformation(String manufactureName, String modelName) {
         return http.get()
                 .uri("/get-devices?key=5b882ff0382e&manufacturer={manufacturer}&name={model}&limit=1", manufactureName, modelName)
                 .accept(APPLICATION_JSON)

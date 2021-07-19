@@ -24,7 +24,6 @@ public class PhoneController {
     BookedPhoneMapper mapper;
 
     // FIXME: Add validation
-    // FIXME: Add Unit test
     // FIXME: Add IT.
     @GetMapping("/list-bookings")
     public Flux<BookedPhoneResponsePayload> getAllBookings() {
