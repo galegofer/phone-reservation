@@ -9,6 +9,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @Value
 @Table
 public class PersonEntity {
+
     @Id
     Long id;
     String firstName;

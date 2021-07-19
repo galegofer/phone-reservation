@@ -1,0 +1,267 @@
+{
+  "Devices": [
+    {
+      "device_url": "https://www.phonearena.com/phones/Samsung-Galaxy-S9_id10716",
+      "id": 86,
+      "image_url": "https://m-cdn.phonearena.com/images/phones/71123-350/Samsung-Galaxy-S9.jpg",
+      "manufacturer": "Samsung",
+      "name": "Samsung Galaxy S9",
+      "rating": 9,
+      "release_date": "Feb 25, 2018",
+      "specs": {
+        "Battery": [
+          {
+            "description": "3000 mAh",
+            "name": "Capacity:"
+          },
+          {
+            "description": "Li - Ion, Not user replaceable",
+            "name": "Type:"
+          },
+          {
+            "description": "Qualcomm Quick Charge 2.0, Samsung Adaptive Fast Charging, Qi and Powermat wireless charging",
+            "name": "Charging:"
+          }
+        ],
+        "Buyers information": [
+          {
+            "description": "$ 720",
+            "name": "Price:"
+          }
+        ],
+        "Camera": [
+          {
+            "description": "Single camera Camera samples",
+            "name": "Rear:"
+          },
+          {
+            "description": "12 MP (OIS, PDAF)",
+            "name": "Main camera:"
+          },
+          {
+            "description": "Aperture size: F1.5/F2.4; Sensor size: 1/2.55\"; Pixel size: 1.4 μm",
+            "name": "Specifications:"
+          },
+          {
+            "description": "3840x2160 (4K UHD) (60 fps), 1920x1080 (Full HD) (240 fps), 1280x720 (HD) (960 fps)",
+            "name": "Video recording:"
+          },
+          {
+            "description": "HDR, Time-lapse video, Hyperlapse, Continuous autofocus, Object tracking, Picture-taking during video recording, Video calling, Video sharing",
+            "name": "Features:"
+          },
+          {
+            "description": "8 MP (Autofocus, HDR)",
+            "name": "Front:"
+          },
+          {
+            "description": "2560x1440 (QHD) (30 fps)",
+            "name": "Video capture:"
+          }
+        ],
+        "Cellular": [
+          {
+            "description": "Bands 1(2100), 2(1900), 3(1800), 4(AWS-1), 5(850), 7(2600), 8(900), 12(700 a), 13(700 c), 14(700 PS), 17(700 b), 18(800 Lower), 19(800 Upper), 20(800 DD), 25(1900+), 26(850+), 28(700 APT), 29(700 d), 30(2300 WCS), 66(AWS-3), 71(600)",
+            "name": "LTE (FDD):"
+          },
+          {
+            "description": "Bands 38(2600), 39(1900+), 40(2300), 41(2600+), 46",
+            "name": "LTE (TDD):"
+          },
+          {
+            "description": "Bands 5(850), 8(900), 4(1700/2100), 2(1900), 1(2100)",
+            "name": "UMTS:"
+          },
+          {
+            "description": "LTE-A Pro Cat 18 (1200/150 Mbit/s), HSDPA+ (4G) 42.2 Mbit/s, HSUPA",
+            "name": "Data Speed:"
+          },
+          {
+            "description": "Nano SIM",
+            "name": "SIM type:"
+          }
+        ],
+        "Connectivity & Features": [
+          {
+            "description": "5.0",
+            "name": "Bluetooth:"
+          },
+          {
+            "description": "802.11 a, b, g, n, ac, dual-band; MIMO, Wi-Fi Direct, Hotspot",
+            "name": "Wi-Fi:"
+          },
+          {
+            "description": "Type-C (reversible), USB 3.1",
+            "name": "USB:"
+          },
+          {
+            "description": "Charging, OTG, Video out",
+            "name": "Features:"
+          },
+          {
+            "description": "GPS, A-GPS, Glonass, Galileo, BeiDou",
+            "name": "Location:"
+          },
+          {
+            "description": "Accelerometer, Gyroscope, Compass, Hall (for flip covers), Barometer",
+            "name": "Sensors:"
+          },
+          {
+            "description": "NFC, ANT+",
+            "name": "Other:"
+          }
+        ],
+        "Design": [
+          {
+            "description": "5.81 x 2.70 x 0.33 inches (147.7 x 68.7 x 8.5 mm)",
+            "name": "Dimensions:"
+          },
+          {
+            "description": "5.75 oz (163.0 g)",
+            "name": "Weight:"
+          },
+          {
+            "description": "Back: Glass (Corning Gorilla Glass 5); Frame: Aluminum",
+            "name": "Materials:"
+          },
+          {
+            "description": "Water, Dust; IP68",
+            "name": "Resistance:"
+          },
+          {
+            "description": "Iris scanner, 2D Face unlock, Fingerprint (touch)",
+            "name": "Biometrics:"
+          },
+          {
+            "description": "Notification light",
+            "name": "Features:"
+          },
+          {
+            "description": "Left: Volume control, Other; Right: Lock/Unlock key",
+            "name": "Keys:"
+          },
+          {
+            "description": "Midnight black, Coral blue, Titanium gray, Lilac purple, Burgundy red, Sunrise gold, Ice blue",
+            "name": "Colors:"
+          }
+        ],
+        "Display": [
+          {
+            "description": "5.8 inches",
+            "name": "Size:"
+          },
+          {
+            "description": "2960 x 1440 pixels, 18.5:9 ratio, 568 PPI",
+            "name": "Resolution:"
+          },
+          {
+            "description": "Super AMOLED",
+            "name": "Technology:"
+          },
+          {
+            "description": "84.36 %",
+            "name": "Screen-to-body:"
+          },
+          {
+            "description": "HDR support, Scratch-resistant glass (Corning Gorilla Glass 5), Ambient light sensor, Proximity sensor",
+            "name": "Features:"
+          }
+        ],
+        "Hardware": [
+          {
+            "description": "Qualcomm Snapdragon 845 SDM845",
+            "name": "System chip:"
+          },
+          {
+            "description": "Octa-core, 2800 MHz, Kryo 385, 64-bit, 10 nm",
+            "name": "Processor:"
+          },
+          {
+            "description": "Adreno 630",
+            "name": "GPU:"
+          },
+          {
+            "description": "4GB LPDDR4",
+            "name": "RAM:"
+          },
+          {
+            "description": "64GB",
+            "name": "Internal storage:"
+          },
+          {
+            "description": "microSDXC up to 400 GB",
+            "name": "Storage expansion:"
+          },
+          {
+            "description": "Smartphone",
+            "name": "Device type:"
+          },
+          {
+            "description": "Android (10, 9.0 Pie, 8.0 Oreo), Samsung One UI Screenshots",
+            "name": "OS:"
+          }
+        ],
+        "Multimedia": [
+          {
+            "description": "3.5mm jack",
+            "name": "Headphones:"
+          },
+          {
+            "description": "Earpiece, Multiple speakers",
+            "name": "Speakers:"
+          },
+          {
+            "description": "32-Bit DAC, aptX-HD",
+            "name": "Features:"
+          },
+          {
+            "description": "Wireless screen share",
+            "name": "Screen mirroring:"
+          },
+          {
+            "description": "FM",
+            "name": "Radio:"
+          },
+          {
+            "description": "for Noise cancellation",
+            "name": "Additional microphone(s):"
+          }
+        ],
+        "Regulatory Approval": [
+          {
+            "description": "",
+            "name": "FCC approval:"
+          },
+          {
+            "description": "Jan 11, 2018",
+            "name": "Date approved:"
+          },
+          {
+            "description": "A3LSMG960U link",
+            "name": "FCC ID value:"
+          },
+          {
+            "description": "",
+            "name": "Measured SAR:"
+          },
+          {
+            "description": "0.35 W/kg",
+            "name": "Head:"
+          },
+          {
+            "description": "0.96 W/kg",
+            "name": "Body:"
+          },
+          {
+            "description": "1.59 W/kg",
+            "name": "Simultaneous Transmission:"
+          },
+          {
+            "description": "0.95 W/kg",
+            "name": "Wireless Router:"
+          }
+        ]
+      }
+    }
+  ]
+}

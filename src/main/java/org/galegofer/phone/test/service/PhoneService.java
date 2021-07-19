@@ -5,7 +5,10 @@ import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface PhoneService {
+
     Flux<BookedPhone> getAllBookings();
+
     Mono<BookedPhone> bookPhone(String personCorpKey, String phoneSerialNumber);
+
     Mono<BookedPhone> returnPhone(String phoneSerialNumber);
 }

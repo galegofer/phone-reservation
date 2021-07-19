@@ -42,7 +42,8 @@ public class DeviceInformationRepository {
                     modelName))
             .doOnSuccess(result -> cacheClient.put(normalizeKey(manufactureName, modelName), result))
             .doOnError(ex -> log
-                .error("Error while obtaining extra information for device: {}, model: {} from web service", manufactureName, modelName,
+                .error("Error while obtaining extra information for device: {}, model: {} from web service",
+                    manufactureName, modelName,
                     ex));
     }
 

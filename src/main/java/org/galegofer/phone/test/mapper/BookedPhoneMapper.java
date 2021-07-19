@@ -7,6 +7,7 @@ import org.mapstruct.Mapper;
 
 @Mapper(componentModel = "spring")
 public interface BookedPhoneMapper {
+
     BookedPhoneEntity modelToEntity(BookedPhone source);
 
     BookedPhone entityToModel(BookedPhoneEntity destination);

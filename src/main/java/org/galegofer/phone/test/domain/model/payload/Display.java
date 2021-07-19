@@ -9,6 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Value
 @Jacksonized
 public class Display implements Serializable {
+
     String description;
     String name;
 }

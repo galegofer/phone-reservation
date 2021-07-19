@@ -9,6 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Value
 @Jacksonized
 public class BuyersInformation implements Serializable {
+
     String description;
     String name;
 }

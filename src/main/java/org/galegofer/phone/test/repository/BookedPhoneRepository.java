@@ -9,8 +9,11 @@ import reactor.core.publisher.Mono;
 
 @Repository
 public interface BookedPhoneRepository extends ReactiveCrudRepository<BookedPhoneEntity, Long> {
+
     Flux<BookedPhoneEntity> findAll();
+
     Mono<BookedPhoneEntity> findBySerialNumber(String serialNumber);
+
     @Modifying
     Mono<Integer> deleteBySerialNumber(String serialNumber);
 }

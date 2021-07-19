@@ -7,5 +7,6 @@ import reactor.core.publisher.Mono;
 
 @Repository
 public interface PhoneRepository extends ReactiveCrudRepository<PhoneEntity, Long> {
+
     Mono<PhoneEntity> findBySerialNumber(String serialNumber);
 }

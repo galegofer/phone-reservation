@@ -11,6 +11,7 @@ import org.springframework.data.relational.core.mapping.Table;
 @AllArgsConstructor
 @Table("PHONE")
 public class PhoneEntity {
+
     @Id
     Long id;
     String serialNumber;

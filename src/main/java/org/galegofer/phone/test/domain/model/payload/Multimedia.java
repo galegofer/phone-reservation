@@ -9,6 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Value
 @Jacksonized
 public class Multimedia implements Serializable {
+
     String description;
     String name;
 }

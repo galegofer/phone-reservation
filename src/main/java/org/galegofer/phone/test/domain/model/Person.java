@@ -6,6 +6,7 @@ import lombok.Value;
 @Builder
 @Value
 public class Person {
+
     String firstName;
     String lastname;
     String corpKey;

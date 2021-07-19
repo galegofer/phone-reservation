@@ -8,6 +8,7 @@ import lombok.Value;
 @Value
 @AllArgsConstructor
 public class Phone {
+
     String serialNumber;
     String manufacturer;
     String model;

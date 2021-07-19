@@ -10,6 +10,7 @@ import lombok.extern.jackson.Jacksonized;
 @Value
 @Jacksonized
 public class Device implements Serializable {
+
     @JsonProperty("device_url")
     String deviceURL;
     int id;

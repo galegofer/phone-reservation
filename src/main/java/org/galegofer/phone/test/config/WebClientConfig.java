@@ -16,8 +16,8 @@ public class WebClientConfig {
     @Bean
     WebClient.Builder builder() {
         return WebClient.builder()
-                .baseUrl(host)
-                .clientConnector(new ReactorClientHttpConnector(HttpClient.create()));
+            .baseUrl(host)
+            .clientConnector(new ReactorClientHttpConnector(HttpClient.create()));
     }
 
     @Bean

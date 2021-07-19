@@ -9,6 +9,7 @@ import lombok.extern.jackson.Jacksonized;
 @Value
 @Jacksonized
 public class ConnectivityFeature implements Serializable {
+
     String description;
     String name;
 }
